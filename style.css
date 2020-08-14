@@ -1,0 +1,85 @@
+
+body {
+  background-image: url("img/greca4.png");
+  background-size: 5px;
+  background-color: white;
+  text-align: justify;
+  }
+
+.left{
+  background-image: url("img/greca5.png");
+  background-size: 5px;
+  width: 300px;
+  padding: 50px;
+  float: left;
+  margin: 10px;
+  border-radius: 18px;
+  font-family: serif;
+}
+
+.center{
+  width: 450px;
+  padding: 50px;
+  float: left;
+  margin: 10px;
+  font-family: sans-serif;
+  background: white;
+  border-radius: 18px;
+
+  }
+
+.right{
+  background-image: url("img/greca7.png");
+  background-size: 5px;
+  position: fixed;
+  width: auto;
+  height: auto;
+  right: 0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 18px;
+}
+
+ul li{
+  list-style: none;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+.me img{
+  border-radius: 100%;
+}
+
+h1{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3em;
+  font-color:#ffffff;
+  font-family: serif;
+}
+
+.contact{
+  display: grid;
+  text-align: center;
+}
+
+.contact img{
+  height: 50px;
+  margin: 10px;
+}
+
+.hobbies img{
+  height: 50px;
+}
+
+#n1 {
+  text-align: left;
+}
+
+#n2 {
+  text-align: center;
+}
+
+#n3 {
+  text-align: right;
+}
