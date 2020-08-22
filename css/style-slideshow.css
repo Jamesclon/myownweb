@@ -7,7 +7,7 @@ body{
   margin: auto;
   background-color: white;
   width: 400px;
-  padding: 30px;
+  padding: 10px;
 }
 
 ul, li{
@@ -63,8 +63,8 @@ ul.slider li:target{
   text-decoration: none;
   background-color: grey;
   padding: 10px;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
   border-radius: 100%;
 }
