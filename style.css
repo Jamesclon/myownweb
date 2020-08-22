@@ -9,7 +9,7 @@ body {
 .left{
   background-image: url("./img/greca5.png");
   background-size: 5px;
-  width: 300px;
+  width: 500px;
   padding: 50px;
   float: left;
   margin: 10px;
@@ -54,7 +54,7 @@ ul li{
 
 .hobbies img{
   border-radius: 20%;
-  height: 70px;
+  height: 100px;
 }
 
 h1{
