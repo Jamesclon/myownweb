@@ -18,24 +18,24 @@ body {
 .left{
   background-image: url("../img/background/greca5.png");
   background-size: 5px;
-  width: 500px;
+  width: 600px;
   padding: 50px;
   float: left;
   margin: 10px;
   border-radius: 18px;
   font-family: serif;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .center{
-  width: 500px;
+  width: 600px;
   padding: 50px;
   float: left;
   margin: 10px;
   font-family: sans-serif;
   background: white;
   border-radius: 18px;
-  font-size: 20px;
+  font-size: 25px;
   }
 
 .bottom{
@@ -60,6 +60,7 @@ body {
   margin: 10px;
 }
 
+
 ul li{
   list-style: none;
   font-style: oblique;
@@ -76,6 +77,10 @@ ul li{
   height: 100px;
 }
 
+.center img{
+  height: 200px;
+}
+
 h1{
   font-style: italic;
   font-weight: bold;
@@ -84,7 +89,9 @@ h1{
   font-family: serif;
 }
 
-
+#h2job{
+  text-decoration: underline;
+}
 
 #n1 {
   /* NOTE: MIGUEL */
