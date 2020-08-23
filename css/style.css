@@ -1,9 +1,16 @@
 
+html{
+  min-height: 100%;
+  position: relative;
+}
+
 body {
   background-image: url("../img/background/greca4.png");
   background-size: 5px;
   background-color: white;
   text-align: justify;
+  margin: 0;
+  margin-bottom: 100px;
   }
 
 .left{
@@ -29,16 +36,25 @@ body {
   font-size: 20px;
   }
 
-.right{
+.bottom{
   background-image: url("../img/background/greca7.png");
   background-size: 5px;
-  position: fixed;
-  width: auto;
-  height: auto;
-  right: 0;
+  position: absolute;
+  bottom: -100px;
   padding: 10px;
   margin: 10px;
   border-radius: 18px;
+}
+
+.contact{
+/* NOTE: into bottom div */
+  display: inline-block;
+}
+
+.contact img{
+/* NOTE: into bottom div */
+  height: 50px;
+  margin: 10px;
 }
 
 ul li{
@@ -65,15 +81,7 @@ h1{
   font-family: serif;
 }
 
-.contact{
-  display: grid;
-  text-align: center;
-}
 
-.contact img{
-  height: 50px;
-  margin: 10px;
-}
 
 #n1 {
   /* NOTE: MIGUEL */
