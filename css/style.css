@@ -4,6 +4,7 @@ body {
   background-size: 5px;
   background-color: white;
   text-align: justify;
+
   }
 
 .left{
@@ -31,10 +32,8 @@ body {
 .right{
   background-image: url("./img/greca7.png");
   background-size: 5px;
-  position: fixed;
-  width: auto;
-  height: auto;
-  right: 0;
+  position: absolute;
+  bottom: 0px;
   padding: 10px;
   margin: 10px;
   border-radius: 18px;
