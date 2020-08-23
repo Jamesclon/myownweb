@@ -1,11 +1,7 @@
-
 body {
   background-image: url("./img/greca4.png");
   background-size: 5px;
-  background-color: white;
-  text-align: justify;
-
-  }
+}
 
 .left{
   background-image: url("./img/greca5.png");
@@ -26,9 +22,9 @@ body {
   font-family: sans-serif;
   background: white;
   border-radius: 18px;
-
   }
 
+/* NOTE:
 .right{
   background-image: url("./img/greca7.png");
   background-size: 5px;
@@ -37,6 +33,14 @@ body {
   padding: 10px;
   margin: 10px;
   border-radius: 18px;
+}
+*/
+
+.bottom{
+  border-style: solid;
+  border-width: medium;
+  border-color: red;
+  background-color: white;
 }
 
 ul li{
@@ -72,13 +76,16 @@ h1{
 }
 
 #n1 {
+  /* NOTE: miguel */
   text-align: left;
 }
 
 #n2 {
+  /* NOTE: vega */
   text-align: center;
 }
 
 #n3 {
+  /* NOTE: gonzalez */
   text-align: right;
 }
