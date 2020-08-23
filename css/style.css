@@ -1,13 +1,13 @@
 
 body {
-  background-image: url("./img/background/greca4.png");
+  background-image: url("../img/background/greca4.png");
   background-size: 5px;
   background-color: white;
   text-align: justify;
   }
 
 .left{
-  background-image: url("./img/background/greca5.png");
+  background-image: url("../img/background/greca5.png");
   background-size: 5px;
   width: 500px;
   padding: 50px;
@@ -30,7 +30,7 @@ body {
   }
 
 .right{
-  background-image: url("./img/background/greca7.png");
+  background-image: url("../img/background/greca7.png");
   background-size: 5px;
   position: fixed;
   width: auto;
