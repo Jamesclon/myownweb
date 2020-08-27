@@ -1,12 +1,13 @@
 body{
-  background-color: lightgrey;
+  background-image: url("../img/background/greca5.png");
+  background-size: 5px;
   font-family: sans-serif;
 }
 
 .container{
   margin: auto;
   background-color: white;
-  width: 400px;
+  width: 450px;
   padding: 10px;
 }
 
@@ -18,7 +19,7 @@ ul, li{
 
 ul.slider{
   position: relative;
-  width: 400px;
+  width: 450px;
   height: 300px;
 }
 
