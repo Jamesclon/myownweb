@@ -89,6 +89,15 @@ h1{
   font-family: serif;
 }
 
+.contactlink{
+  float: right;
+}
+
+.contactlink img{
+  height: 50px;
+  border-radius: 20%;
+}
+
 #h2job{
   text-decoration: underline;
 }
