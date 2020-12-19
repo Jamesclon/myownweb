@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Indicamos el tipo de codificación del archivo -->
+<rss version="2.0"> <!-- Indicamos la versión de rss que usaremos -->
+<!-- Definimos las características del canal -->
+  <channel>
+<!-- elementos fijos-->
+    <title>Mi canal RSS</title> <!-- Título del canal -->
+    <link>https://miguelvegaglez.es/</link> <!-- La web donde veremos el rss -->
+    <description>Mi web personal, con acceso a mis datos académicos y laborales.
+      Además la uso como campo de trabajo en la asignatura Lenguaje de Marcas</description> <!-- Descripción de la web -->
+    <language>es</language> <!-- Idioma -->
+<!-- elementos variables-->
+<!-- los item son las noticias que tendrá el canal-->
+    <item>
+      <title>El tiempo en Valladolid</title> <!-- título -->
+      <link>https://www.tiempo.es/valladolid-valladolid-es0vd0179.html</link> <!-- enlace -->
+      <description>Tiempo actualizado en la ciudad de Valladolid</description> <!-- descripción -->
+      <guid>https://www.tiempo.es/valladolid-valladolid-es0vd0179.html</guid> <!-- Identificador personalizado (opcional) -->
+    </item>
+
+    <item>
+      <title>Noticias interesantes</title> <!-- título -->
+      <link>https://miguelvegaglez.es/lmsgi03-noticias.html</link> <!-- enlace -->
+      <description>Web con temática random para la asignatura de Lenguaje de Marcas</description> <!-- descripción -->
+      <guid>https://miguelvegaglez.es/lmsgi03-noticias.html</guid> <!-- Identificador personalizado (opcional) -->
+    </item>
+
+  </channel>
+
+</rss>

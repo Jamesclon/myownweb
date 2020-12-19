@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+<!-- lenguaje del documento y version atom -->
+
+<!-- Cabecera del Atom -->
+  <title>Mi Canal Atom</title>
+  <updated>2020-12-19T00:00:00Z</updated>
+  <id>https://miguelvegaglez.es/lmsgi03.html</id>
+  <link rel="self" type="application/atom+xml" href="https://miguelvegaglez.es/feed/atom.xml" />
+  <link rel="alternate" type="text/html" href="https://miguelvegaglez.es/lmsgi03.html" />
+  <author>
+    <name>Miguel</name>
+  </author>
+
+  <!-- Elementos del Atom -->
+  <entry>
+    <title>El tiempo en Valladolid</title>
+      <link rel="alternate" type="text/html" href="https://www.tiempo.es/valladolid-valladolid-es0vd0179.html" />
+      <updated>2020-12-19T00:00:00Z</updated>
+      <id>https://www.tiempo.es/valladolid-valladolid-es0vd0179.html</id>
+      <author>
+        <name>El tiempo, Pelmorex Weather Networks 2020</name>
+      </author>
+      <summary>Noticias del tiempo en la ciudad de Valladolid, Castilla y Leon</summary>
+  </entry>
+  <entry>
+    <title>Noticias interesantes</title>
+      <link rel="alternate" type="text/html" href="https://miguelvegaglez.es/lmsgi03-noticias.html" />
+      <updated>2020-12-19T00:00:01Z</updated>
+      <id>https://miguelvegaglez.es/lmsgi03.html</id>
+      <author>
+        <name>Miguel</name>
+      </author>
+      <summary>Web con temática random para la asignatura de Lenguaje de Marcas</summary>
+  </entry>
+
+</feed> <!-- Finalizamos el feed -->

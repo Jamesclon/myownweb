@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(186, 230, 160);
+}
+
+.cabecera{
+  text-align: center;
+}
+.img1{
+  max-width: 100%;
+  height: auto;
+}
+.titulo{
+  text-align: center;
+}
+.cuerpo{
+  text-align: center;
+}
+.img2{
+  max-width: 100%;
+  height: auto;
+}
+.noticia1{
+  max-width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(143, 94, 70, 0.64);
+}
+.noticia2{
+  max-width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(143, 94, 70, 0.64);
+}
+.fin p{
+  font-weight: bold;
+}
+.feed{
+  float: right;
+}
+.feed img{
+  height: 100px;
+  width: auto;
+}
