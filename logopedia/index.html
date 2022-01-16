@@ -19,6 +19,11 @@
 
   <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
 
+
+  <!-- Politica de cookies -->
+  <!-- Lo primero que todo es que necesitas cargar en el HEAD del documento la librería de jQuery. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -516,6 +521,44 @@
   <!-- Global Init -->
   <script src="assets/js/custom.js"></script>
 
+  <!-- Aviso sobre cookies -->
+  <div id="div-cookies" style="display: none;">
+    Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+    <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+    y la
+    <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+    <button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+        Acepto el uso de cookies
+    </button>
+</div>
+<style>
+#div-cookies {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 15px gray;
+    padding: 7px;
+    text-align: center;
+    z-index: 99;
+}
+</style>
+<script>
+function checkAcceptCookies() {
+    if (localStorage.acceptCookies == 'true') {
+    } else {
+        $('#div-cookies').show();
+    }
+}
+function acceptCookies() {
+    localStorage.acceptCookies = 'true';
+    $('#div-cookies').hide();
+}
+$(document).ready(function() {
+    checkAcceptCookies();
+});
+</script>
 </body>
 
 </html>
